@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="#fff8dc">
+<center>
+    <h1>
+         <form action="./calculate"method="post">
+            {% csrf_token %}
+            Enter the Firstnumber:<input type="text"name="t1"><br>
+            Enter the secondnumber:<input type="text"name="t2"><br>
+             <input type="submit"value="add"name="opt">
+             <input type="submit"value="sub"name="opt">
+             <input type="submit"value="mul"name="opt">
+             <input type="submit"value="div"name="opt">
+        </form>
+    </h1>
+</center>
+</body>
+</html>
